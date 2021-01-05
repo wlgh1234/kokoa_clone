@@ -26,3 +26,13 @@
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+.user-component {
+  display: flex;
+  justify-content: space-between;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component__avatar--sm {
+  border-radius: 25px;
+}
