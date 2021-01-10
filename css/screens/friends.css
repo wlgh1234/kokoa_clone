@@ -6,6 +6,7 @@
   font-weight: 16px;
   margin-bottom: 10px;
   font-size: 18px;
+  margin-top: -15px;
 }
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
@@ -13,7 +14,7 @@
 .friend-screen__channel-header {
   margin-top: 25px;
   margin-bottom: 30px;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: var(--main-border);
   color: rgba(0, 0, 0, 0.5);
   padding-top: 10px;
 }
